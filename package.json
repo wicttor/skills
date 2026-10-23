@@ -1,0 +1,16 @@
+{
+  "name": "wicttor/agentic-skills",
+  "version": "0.1.0",
+  "description": "A collection of skills for the Agentic framework, including decision-making, documentation, and auditing capabilities.",
+  "keywords": [
+    "agent-skill",
+    "audit",
+    "decision-making",
+    "documentation"
+  ],
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "CHANGELOG.md"
+  ]
+}
