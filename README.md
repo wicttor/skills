@@ -7,6 +7,7 @@ A collection of reusable skills and tools for AI agents. Each skill packages foc
 | Skill | Description |
 | --- | --- |
 | [Audit and Ask](Skills/audit-and-ask/SKILL.md) | Audit a document or project, group the issues, then resolve them one group at a time through multiple-choice questions, and finish with a cross-group refactor and a decision log. |
+| [Plan This](Skills/plan-this/SKILL.md) | Turn a prompt, file, or document into one implementation plan that follows the bundled plan template. Run only when the user invokes `/plan-this`. |
 
 ## Repository layout
 
@@ -14,6 +15,7 @@ A collection of reusable skills and tools for AI agents. Each skill packages foc
 Skills/
   <skill-name>/
     SKILL.md
+    assets/
 ```
 
 Each skill directory contains its own entry point and may include supporting documentation or package metadata. To add a skill, create a directory under `Skills/` with a `SKILL.md` file containing the skill's name, description, and instructions, then add it to the table above.
@@ -22,4 +24,4 @@ Each skill directory contains its own entry point and may include supporting doc
 
 See the [changelog](CHANGELOG.md) for collection release history. The root [`package.json`](package.json) contains package metadata for publishing this collection.
 
-Current version: 0.1.1
+Current version: 0.1.2

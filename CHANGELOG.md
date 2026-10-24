@@ -2,6 +2,12 @@
 
 Notable changes to this collection are documented here.
 
+## 0.1.2 - 2026-10-23
+
+- Added the Plan This skill (`Skills/plan-this/`), which turns a prompt, file, or document into one implementation plan that follows `assets/plan-template.md`.
+- Added an empty `.gitignore`.
+- README now lists both skills and shows the `assets/` directory in the repository layout.
+
 ## 0.1.1 - 2026-10-23
 
 - Rewrote the Audit and Ask instructions in plainer language. The workflow is unchanged: audit, ask loop, group completion, final pass.
