@@ -1,6 +1,6 @@
 {
   "name": "wicttor/agentic-skills",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A collection of skills for the Agentic framework, including decision-making, documentation, and auditing capabilities.",
   "keywords": [
     "agent-skill",

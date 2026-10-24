@@ -6,7 +6,7 @@ A collection of reusable skills and tools for AI agents. Each skill packages foc
 
 | Skill | Description |
 | --- | --- |
-| [Audit and Ask](Skills/audit-and-ask/SKILL.md) | Audit a document or project, group issues, and work through decisions one group at a time before a final consistency pass. |
+| [Audit and Ask](Skills/audit-and-ask/SKILL.md) | Audit a document or project, group the issues, then resolve them one group at a time through multiple-choice questions, and finish with a cross-group refactor and a decision log. |
 
 ## Repository layout
 
@@ -21,3 +21,5 @@ Each skill directory contains its own entry point and may include supporting doc
 ## Releases
 
 See the [changelog](CHANGELOG.md) for collection release history. The root [`package.json`](package.json) contains package metadata for publishing this collection.
+
+Current version: 0.1.1
